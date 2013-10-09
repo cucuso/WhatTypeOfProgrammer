@@ -25,11 +25,12 @@ function myfunction() {
 
                     if (i == 10) {
                         var lang = mostPopular;
+						console.log(mostPopular);
 
                         switch (lang) {
                         case "Java":
                             document.write('<img src="assets/images/java.png"/>');
-                            break;
+                            break;						
                         case "C#":
                             document.write('<img src="assets/images/C#.jpg"/>');
                             break;
@@ -39,22 +40,22 @@ function myfunction() {
                         case "C++":
                             document.write('<img src="assets/images/c++.png"/>');
                             break;
-                        case "objectivec":
+                        case "Objective-C":
                             document.write('<img src="assets/images/objectivec.png"/>');
                             break;
-                        case "perl":
+                        case "Perl":
                             document.write('<img src="assets/images/perl.gif"/>');
                             break;
-                        case "php":
+                        case "PHP":
                             document.write('<img src="assets/images/php.png"/>');
                             break;
-                        case "python":
+                        case "Python":
                             document.write('<img src="assets/images/python.jpg"/>');
                             break;
-                        case "ruby":
+                        case "Ruby":
                             document.write('<img src="assets/images/ruby.png"/>');
                             break;
-                        case "vb":
+                        case "Visual Basic":
                             document.write('<img src="assets/images/vb.png"/>');
 
                         default:
