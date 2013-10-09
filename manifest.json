@@ -1,0 +1,13 @@
+{
+  "name" : "What type of programmer am I",
+  "version" : "1.1",
+  "description" : "fun extension that analyzes your browsing history to determine what type of programmer you are",
+  "permissions": [
+    "history"
+  ],
+  "browser_action": {
+     "default_icon": "assets/images/icon.png",
+     "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
